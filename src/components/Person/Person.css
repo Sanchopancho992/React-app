@@ -1,0 +1,18 @@
+.caption {
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  opacity: 0;
+  background: rgba(0, 15, 152, 0.3);
+  padding-top: 70%;
+  transition: 0.4s;
+}
+
+.image:hover .caption {
+  opacity: 1;
+  padding-top: 0;
+}
