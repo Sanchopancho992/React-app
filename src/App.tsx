@@ -7,7 +7,9 @@ import Title from "./components/Title/Title";
 import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import Testimonials from "./components/Testimonials/Testimonials";
-
+import Contact from "./components/Contact/Contact";
+import Footer
+ from "./components/Footer/Footer";
 const App = () => {
   return (
     <div>
@@ -23,6 +25,10 @@ const App = () => {
         <Gallery />
         <Title title="Testimonials" />
         <Testimonials />
+        <Title title="Contact Us" />
+        <Contact />
+        <Footer />
+
       </div>
     </div>
   );
